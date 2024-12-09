@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Black background */
+    color: #D64933; /* Red text color */
+}
+
+/* Header */
+header {
+    background: #000000; /* Black background */
+    border-bottom: 2px solid #D64933; /* Red border */
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #D64933; /* Red text for navigation */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    color: #D64933; /* Red text */
+    padding: 100px 20px;
+}
+
+#home button {
+    background-color: #D64933; /* Red button */
+    color: #000000; /* Black text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#home button:hover {
+    background-color: #000000; /* Black hover */
+    color: #D64933; /* Red text */
+    border: 2px solid #D64933; /* Red border */
+}
+
+/* About Section */
+#about {
+    border-top: 2px solid #D64933; /* Red border */
+}
+
+/* Skills Section */
+#skills .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+#skills .skill {
+    background: #D64933; /* Red skill box */
+    color: #000000; /* Black text */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects .project-card {
+    background: #000000; /* Black background */
+    border: 2px solid #D64933; /* Red border */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+    color: #D64933; /* Red text */
+}
+
+#projects .project-card a {
+    color: #D64933; /* Red links */
+    text-decoration: none;
+}
+
+#projects .project-card a:hover {
+    text-decoration: underline;
+}
+
+/* Resume Section */
+#resume {
+    border-top: 2px solid #D64933; /* Red border */
+}
+
+#resume a {
+    color: #D64933; /* Red link */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#resume a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact input, #contact textarea {
+    background-color: #000000; /* Black */
+    color: #D64933; /* Red text */
+    border: 1px solid #D64933; /* Red border */
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+#contact button {
+    background-color: #D64933; /* Red button */
+    color: #000000; /* Black text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #000000; /* Black hover */
+    color: #D64933; /* Red text */
+    border: 2px solid #D64933; /* Red border */
+}
+
+/* Footer */
+footer {
+    background: #000000; /* Black background */
+    color: #D64933; /* Red text */
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #D64933; /* Red border */
+}
